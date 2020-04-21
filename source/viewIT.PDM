@@ -1,0 +1,199 @@
+[Root]
+Most Recent Package=viewIT 2.5
+
+
+[Package|viewIT 2.2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\JP\Desktop\Final - viewIT (v2.2 r01-09-05)\Package
+
+[Package|viewIT 2.2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|viewIT 2.2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|viewIT 2.2|Files Found]
+
+[Package|viewIT 2.2|Files Released]
+
+[Package|viewIT 2.2|Missing Dependency Information]
+
+[Package|viewIT 2.2|Out-of-Date Dependency Information]
+
+[Package|viewIT 2.2|Files Added]
+C:\Documents and Settings\JP\Desktop\Final - viewIT (v2.2 r01-09-05)\viewIT.ini=
+C:\Documents and Settings\JP\Desktop\Final - viewIT (v2.2 r01-09-05)\install-scr.bat=
+
+[Package|viewIT 2.2|Files Removed]
+
+[Package|viewIT 2.2|Files In Project]
+C:\Documents and Settings\JP\Desktop\Final - viewIT (v2.2 r01-09-05)\viewIT.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Documents and Settings\JP\Desktop\Final - viewIT (v2.2 r01-09-05)\viewIT.ini=Yes
+C:\Documents and Settings\JP\Desktop\Final - viewIT (v2.2 r01-09-05)\install-scr.bat=Yes
+
+[Package|viewIT 2.2|Configure Registry Files]
+Applicable=No
+
+[Package|viewIT 2.2|Configure Remote Servers]
+Applicable=No
+
+[Package|viewIT 2.2|Install Locations]
+C:\Documents and Settings\JP\Desktop\Final - viewIT (v2.2 r01-09-05)\viewIT.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Documents and Settings\JP\Desktop\Final - viewIT (v2.2 r01-09-05)\viewIT.ini=$(AppPath)
+C:\Documents and Settings\JP\Desktop\Final - viewIT (v2.2 r01-09-05)\install-scr.bat=$(AppPath)
+
+[Package|viewIT 2.2|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\JP\Desktop\Final - viewIT (v2.2 r01-09-05)\viewIT.exe=No
+C:\Documents and Settings\JP\Desktop\Final - viewIT (v2.2 r01-09-05)\viewIT.ini=No
+C:\Documents and Settings\JP\Desktop\Final - viewIT (v2.2 r01-09-05)\install-scr.bat=No
+
+[Package|viewIT 2.2|Distribution]
+Type=single
+Size=
+Title=viewIT 2.2
+
+[Package|viewIT 2.2|IconGroups]
+Group0=$(Programs)
+PrivateGroup0=-1
+Parent0=
+Group1=$(Start Menu)
+PrivateGroup1=-1
+Parent1=
+
+[Package|viewIT 2.2|$(Programs)]
+Icon1=viewIT.exe
+Title1=viewIT
+StartIn1=$(AppPath)
+Key1=Icon3
+
+[Package|viewIT 2.2|$(Start Menu)]
+Icon1=viewIT.exe
+Title1=viewIT
+StartIn1=$(AppPath)
+Key1=Icon4
+
+[Package|viewIT 2.2|Package]
+PackageFolder=C:\Documents and Settings\JP\Desktop\Final - viewIT (v2.2 r01-09-05)\Package
+ProjectFolder=C:\Documents and Settings\JP\Desktop\Final - viewIT (v2.2 r01-09-05)
+ServerSideCab=
+File1=C:\Documents and Settings\JP\Desktop\Final - viewIT (v2.2 r01-09-05)\Package\setup.exe
+File2=C:\Documents and Settings\JP\Desktop\Final - viewIT (v2.2 r01-09-05)\Package\Setup.Lst
+File3=C:\Documents and Settings\JP\Desktop\Final - viewIT (v2.2 r01-09-05)\Package\viewIT.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|viewIT 2.5|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\JP\Desktop\viewit\Package
+
+[Package|viewIT 2.5|Configure DAO ISAMs]
+Applicable=No
+
+[Package|viewIT 2.5|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|viewIT 2.5|Files Found]
+
+[Package|viewIT 2.5|Files Released]
+
+[Package|viewIT 2.5|Missing Dependency Information]
+
+[Package|viewIT 2.5|Out-of-Date Dependency Information]
+
+[Package|viewIT 2.5|Files Added]
+C:\Documents and Settings\JP\Desktop\viewit\viewit.ini=
+C:\Documents and Settings\JP\Desktop\viewit\install-scr.bat=
+
+[Package|viewIT 2.5|Files Removed]
+
+[Package|viewIT 2.5|Files In Project]
+C:\Documents and Settings\JP\Desktop\viewit\viewit.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Documents and Settings\JP\Desktop\viewit\viewit.ini=Yes
+C:\Documents and Settings\JP\Desktop\viewit\install-scr.bat=Yes
+
+[Package|viewIT 2.5|Configure Registry Files]
+Applicable=No
+
+[Package|viewIT 2.5|Configure Remote Servers]
+Applicable=No
+
+[Package|viewIT 2.5|Install Locations]
+C:\Documents and Settings\JP\Desktop\viewit\viewit.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Documents and Settings\JP\Desktop\viewit\viewit.ini=$(AppPath)
+C:\Documents and Settings\JP\Desktop\viewit\install-scr.bat=$(AppPath)
+
+[Package|viewIT 2.5|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\JP\Desktop\viewit\viewit.exe=No
+C:\Documents and Settings\JP\Desktop\viewit\viewit.ini=No
+C:\Documents and Settings\JP\Desktop\viewit\install-scr.bat=No
+
+[Package|viewIT 2.5|Distribution]
+Type=single
+Size=
+Title=viewIT
+
+[Package|viewIT 2.5|IconGroups]
+Group0=viewIT
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|viewIT 2.5|viewIT]
+Icon1=viewIT.exe
+Title1=viewIT
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|viewIT 2.5|Package]
+PackageFolder=C:\Documents and Settings\JP\Desktop\viewit\Package
+ProjectFolder=C:\Documents and Settings\JP\Desktop\viewit
+ServerSideCab=
+File1=C:\Documents and Settings\JP\Desktop\viewit\Package\setup.exe
+File2=C:\Documents and Settings\JP\Desktop\viewit\Package\Setup.Lst
+File3=C:\Documents and Settings\JP\Desktop\viewit\Package\viewIT.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
