@@ -58,4 +58,4 @@ Comment so the first mouse click will not automatically pause the timing (pressi
 - Press P to pause timing and stay at the current page, press P again to continue
 - Press Q or ESC to exit (or Clear on the MCE Remote)
 
-To suppress popup messages about script errors from within the viewIT window disable script debugging.
+To suppress popup messages about script errors from within the viewIT window disable script debugging, see: http://jpelectron.com/sample/WWW%20and%20HTML/disable%20script%20debugging.txt
