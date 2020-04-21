@@ -7,7 +7,8 @@ Alternate versions:
 
  - viewIT-rev1 v2.5.0.1 ...INI format is ~ as separator instead of comma
  - viewIT-rev2 v2.5.0.2 ...INI format is | as separator instead of comma
- - viewIT-rev3 v2.5.0.3 ...for large monitor and tablet screen resolutions, also included is a screen blackout and flashlight view useful for tablets
+ - viewIT-rev3 v2.5.0.3 ...larger window scale to accommodate modern monitor/tablet resolutions
+ - viewIT-rev4 v2.5.0.4 ...larger window scale to accommodate modern monitor/tablet resolutions, INI format is | as separator instead of comma
 
 Tested on Windows 2000, XP, Vista, 7, 8, 8.1 and Server 2003, 2008, 2012
 
