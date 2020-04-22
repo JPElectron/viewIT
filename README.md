@@ -37,7 +37,7 @@ If you have only one page, or don't want a page to advance (unless right arrow i
 
     http://example.com, 0
 
-In some cases you may be able to include login information with the URL... (see KB834489)
+In some cases you may be able to include login information with the URL... (see KB834489: http://support.microsoft.com/kb/834489)
 
     http://username:password@www.example.com, 20
 
