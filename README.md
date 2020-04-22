@@ -30,16 +30,16 @@ Pages can be referenced from a local or network drive such as...
     c:\directory\page1.htm, 12
     w:\directory\page2.htm, 20
       or pages can be referenced by URL...
-    http://jpelectron.com/vwit/setup.htm, 5
-    http://www.weather.com/weather/print/60606, 10
+    http://example.com/page1.htm, 5
+    http://example.com/page2.htm, 10
 
 If you have only one page, or don't want a page to advance (unless right arrow is pressed) include a zero...
 
-    http://jpelectron.com/vwit/setup.htm, 0
+    http://example.com, 0
 
 In some cases you may be able to include login information with the URL... (see KB834489)
 
-    http://username:password@ipmonitor.example.com/login.htm?stats, 20
+    http://username:password@www.example.com, 20
 
 Un-comment to prevent the program from being closed without the specified password (default is commented as shown, no password)
 
