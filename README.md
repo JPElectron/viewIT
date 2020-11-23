@@ -12,7 +12,7 @@ Alternate versions:
 
 Tested on Windows 2000, XP, Vista, 7, 8, 8.1 and Server 2003, 2008, 2012
 
-<b>Installation:</b>
+## Installation
 
 1) Run viewit-setup.exe and follow the wizard
 2) Modify viewit.ini as indicated below
@@ -20,7 +20,7 @@ Tested on Windows 2000, XP, Vista, 7, 8, 8.1 and Server 2003, 2008, 2012
 
 viewIT can also be run as a screen saver by coping viewit.exe and viewit.ini to the Windows directory and then renaming viewit.exe to viewit.scr
 
-<b>.ini Settings:</b>
+## .ini Settings
 
 To display your content you need to edit the viewit.ini file in the directory with the viewIT executable, this is usually located in C:\Program Files\viewIT unless you put it somewhere else.
 
@@ -53,10 +53,20 @@ Comment so the first mouse click will not automatically pause the timing (pressi
 
     ClickPause=Yes
 
-<b>Usage:</b>
+## Usage
 
 - Press right or left arrow keys to jump forward or back (or right/left on the MCE Remote)
 - Press P to pause timing and stay at the current page, press P again to continue
 - Press Q or ESC to exit (or Clear on the MCE Remote)
 
 To suppress popup messages about script errors from within the viewIT window disable script debugging, see: http://jpelectron.com/sample/WWW%20and%20HTML/disable%20script%20debugging.txt
+
+## License
+
+GPL does not allow you to link GPL-licensed components with other proprietary software (unless you publish as GPL too).
+
+GPL does not allow you to modify the GPL code and make the changes proprietary, so you cannot use GPL code in your non-GPL projects.
+
+If you wish to integrate this software into your commercial software package, or you are a corporate entity with more than 10 employees, then you should obtain a per-instance license, or a site-wide license, from http://jpelectron.com/buy
+
+[End of Line]
