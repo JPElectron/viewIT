@@ -59,7 +59,19 @@ Comment so the first mouse click will not automatically pause the timing (pressi
 - Press P to pause timing and stay at the current page, press P again to continue
 - Press Q or ESC to exit (or Clear on the MCE Remote)
 
-To suppress popup messages about script errors from within the viewIT window disable script debugging, see: http://jpelectron.com/sample/WWW%20and%20HTML/disable%20script%20debugging.txt
+To suppress popup messages about script errors from within the viewIT window you should disable script debugging...
+    
+    Open Internet Explorer > Tools > Internet Options
+    On the last tab "Advanced" under the "Browsing" section check both:
+    [X] Disable script debugging (Internet Explorer)
+    [X] Disable script debugging (Other)
+    Also ensure this is not checked:
+    [ ] Display a notification about every script error
+    
+    If you still continue to get script errors, try this...
+    Open regedit and navigate to:
+    HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AeDebug
+    Rename the key name to: AeDebug_disabled
 
 ## License
 
